@@ -49,6 +49,7 @@ After cluster creation:
 
 aws eks update-kubeconfig --name my-eks-cluster --region us-east-1
 kubectl get nodes
+
 📊 Example Output
 NAME                         STATUS   ROLES    AGE   VERSION
 ip-10-0-1-13.ec2.internal    Ready    <none>   1h    v1.29
