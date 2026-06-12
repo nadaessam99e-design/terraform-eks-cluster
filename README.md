@@ -26,16 +26,22 @@ kubectl
 📁 Project Structure
 .
 ├── main.tf
+
 ├── providers.tf
+
 ├── variables.tf (optional)
+
 ├── outputs.tf (optional)
+
 └── README.md
+
 🚀 How to Use
+
 1. Initialize Terraform
 terraform init
-2. Review the plan
+3. Review the plan
 terraform plan
-3. Apply infrastructure
+4. Apply infrastructure
 terraform apply
 🔗 Configure kubectl access
 
