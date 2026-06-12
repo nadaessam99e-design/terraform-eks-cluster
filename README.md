@@ -50,11 +50,7 @@ After cluster creation:
 aws eks update-kubeconfig --name my-eks-cluster --region us-east-1
 kubectl get nodes
 
-📊 Example Output
-NAME                         STATUS   ROLES    AGE   VERSION
-ip-10-0-1-13.ec2.internal    Ready    <none>   1h    v1.29
-ip-10-0-2-82.ec2.internal    Ready    <none>   1h    v1.29
-🔐 Security Notes
+
 State files are excluded via .gitignore
 No sensitive credentials are stored in the repository
 IAM access is controlled via access_entries
